@@ -1,6 +1,8 @@
 
 ## 과제제출 방법
 
+[![Join the chat at https://gitter.im/advanced-webapps-class/classroom](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/advanced-webapps-class/classroom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 github에 자신의 계정에 `front-end-start` 프로젝트 생성하여 배포
 
 * 디렉토리 규칙
