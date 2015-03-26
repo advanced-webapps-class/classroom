@@ -1,6 +1,11 @@
 
 # 2015 Classroom
 
+## 과제
+
+1. [frondend-todos](https://github.com/niceaji/frontend-todos/issues/1) 레파지토리 만들기
+1. [설명](../README.md)에 따라서 프로젝트 만들고 `02` 폴더에 실습코드 업로드
+
 ## 멤버
 
 * [김재린](https://github.com/sleepbear669)
@@ -28,9 +33,5 @@
 * [김성보](https://github.com/ririthevent)
 * [김태훈](https://github.com/kth9192)
 
-## 과제
-
-1. [frondend-todos](https://github.com/niceaji/frontend-todos/issues/1) 레파지토리 만들기
-1. [설명](../README.md)에 따라서 프로젝트 만들고 `02` 폴더에 실습코드 업로드
 
 
