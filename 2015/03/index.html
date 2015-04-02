@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>박스오피스!</title>
+</head>
+<body>
+
+<div id="wrap"> </div>
+
+<script type="text/template" id="listTemplate">
+<ul>
+  <% for(var i=0; i<list.length; i++) { %>
+  <li>
+    <p><%= list[i].titleKo %></p>
+    <p><img src="<%= list[i].photo.fullname %>" alt="" width="100"></p>
+    <p><%= list[i].moviePoint.expectPointAvg %></p>
+  </li>
+  <%} %>
+</ul>
+</script>
+<script src="util.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
