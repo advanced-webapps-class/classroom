@@ -1,0 +1,46 @@
+*
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+#container
+{
+    width: 380px;
+}
+
+#items
+{
+    width: 380px;
+}
+
+#pages
+{
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+#pages *
+{
+    float: left;
+}
+
+#items .item
+{
+    width: 100px;
+    margin: 0 20px 0 20px;
+}
+#items .item img
+{
+    width: 100px;
+}
+
+#items .item:first-child
+{
+    margin-left: 0;
+}
+#items .item:last-child
+{
+    margin-right: 0;
+}

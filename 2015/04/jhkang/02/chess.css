@@ -1,0 +1,32 @@
+#container
+{
+    float: left;
+    width: 400px;
+    border: 1px black solid;
+}
+#container .line
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.line .tile
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+.tile.white
+{
+    background-color: white;
+}
+.tile.black
+{
+    background-color: black;
+}
+.tile.red
+{
+    background-color: red;
+}

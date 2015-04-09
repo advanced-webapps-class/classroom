@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#container
+{
+    float: none;
+    width: 380px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border: 1px solid black;
+}
+
+#search_bar
+{
+    width: 100%;
+    text-align: center;
+}
+
+#items
+{
+    width: 380px;
+}
+#items .item
+{
+    width: 340px;
+    padding: 20px;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
+#items .item a
+{
+    display: block;
+    width: 100%;
+}
+
+#items .item:first-child
+{
+    margin-top: 20px;
+}
+#items .item:last-child
+{
+    margin-down: 20px;
+}
+
+#more
+{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+*
+{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+#container
+{
+    width: 380px;
+}
+
+#items
+{
+    width: 380px;
+}
+#items .item
+{
+    width: 340px;
+    margin: 20px;
+}
+
+#items .item img,
+#items .item span
+{
+    width: 100%;
+}
+
+#items .item:first-child
+{
+    margin-top: 40px;
+}
+#items .item:last-child
+{
+    margin-down: 40px;
+}
+
+#pages
+{
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
+#pages *
+{
+    float: left;
+}
