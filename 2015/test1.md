@@ -6,7 +6,7 @@
 ## 준비
 
 1. [Daum 검색 오픈API 사용](https://advanced-webapps-class.github.io/front-end-start/ajax/quiz-openapi.html) 사용
-1. [기본 마크업에서 시작](../assets/test1-base.html)
+1. [기본 마크업에서 시작](./assets/test1-base.html)
 
 
 ## 미션
