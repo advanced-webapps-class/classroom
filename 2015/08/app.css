@@ -19,6 +19,13 @@
   background-color: #ddd;
   color: #000;
 }
+#gameBoard .card div {
+  display: none;
+}
+#gameBoard .card.open div {
+  display: block;
+}
+
 #gameBoard .card.good {
   background-color: #333;
   color: red;
