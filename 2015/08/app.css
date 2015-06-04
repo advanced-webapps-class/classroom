@@ -7,5 +7,14 @@
   height:100px;
   background-color: green;
   float:left;
-  margin:5px
+  margin:5px;
+  cursor: pointer;
+  font-size: 70px;
+  color: #fff;
+  text-align: center;
+}
+
+#gameBoard .card.open {
+  background-color: #ddd;
+  color: #000;
 }
