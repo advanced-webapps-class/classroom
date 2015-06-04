@@ -1,0 +1,11 @@
+#gameBoard {
+  width: 600px; /* border:1px solid #000; */
+  padding: 10px;
+}
+#gameBoard .card {
+  width:100px;
+  height:100px;
+  background-color: green;
+  float:left;
+  margin:5px
+}

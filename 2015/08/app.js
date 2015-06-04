@@ -2,11 +2,17 @@
 
 var cards = [1,2,3,4,5,1,2,3,4,5];
 
+var $board = $('#gameBoard');
 
-function shuffle(o){
-    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
+//섞기
+cards = shuffle(cards);
+console.log(cards)
+
+//깔기
+var doms = [];
+for(var i=0; i < cards.length; i++){
+
+  doms.push('<div class="card">' + cards[i]+ '</div>');
 }
 
-
-console.log(shuffle(cards))
+$board.html(doms.join(''));
