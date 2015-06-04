@@ -13,7 +13,7 @@ var doms = [];
 for(var i=0; i < cards.length; i++){
 
   doms.push(
-    '<div class="card" data-value="' + cards[i]+ '">' +
+    '<div class="card " data-value="' + cards[i]+ '">' +
     '<div class=""> '+ cards[i]  +' </div>' +
     '</div>'
   );
@@ -23,10 +23,10 @@ $board.html(doms.join(''));
 
 
 
-
 //클릭 이벤트 주기
 var cardStatus = 'close'; // close, open, ....
 var openedValue = 0;
+var score = 0;
 
 $board.on('click', '.card', function(event){
 
@@ -41,14 +41,39 @@ $board.on('click', '.card', function(event){
   }
   else if(cardStatus === "open1"){
 
+    if($card.hasClass('open')){
+
+      return;
+    }
     $card.addClass('open');
     cardStatus = 'open2';
 
-    setTimeout(function(){
-      $('.card').removeClass('open');
+    //맞으면
+    if(openedValue === $card.data('value')){
+
+      score++;
+      console.log(score)
+      // $('.card.open').data('status','good');
+      $('.card.open').addClass('good');
       cardStatus = 'close';
 
-    }, 1000);
+    }
+    //틀리면
+    else {
+      setTimeout(function(){
+
+        $('.card').each(function(index, el){
+          var $el = $(el);
+          if(!$el.hasClass('good')){
+            $el.removeClass('open');
+          }
+        })
+        cardStatus = 'close';
+
+      }, 1000);
+    }
+
+
   }
 
 });
