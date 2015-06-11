@@ -6,20 +6,7 @@
   var storageKey = "note";
 
 
-  var util = {
-      storage : {
-        load: function () {
-          console.log('storage.load()');
-          return localStorage.getItem(storageKey);
-          // return JSON.parse(localStorage.getItem(storageKey) || "[]");
-        },
-        save: function (event, data) {
-          console.log('storage.save()');
-          // localStorage.setItem(storageKey, JSON.stringify(data));
-          localStorage.setItem(storageKey, data);
-        }
-      }
-    };
+
 
   var BtnAction = {
 
