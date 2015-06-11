@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  height: 60px;
+}
+h1 {
+  margin: 0;
+  float:left;
+}
+.menu {
+  margin: 7px 0 0 40px;
+  padding: 0;
+  list-style: none;
+  float:left;
+}
+.menu li {
+
+  display: inline;
+  margin-right: 10px;
+}
+.menu a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.editor {
+  width: 80%;
+  margin: 20px auto;
+}
+.editor #memo {
+  width: 100%;
+  height: 300px;
+
+}

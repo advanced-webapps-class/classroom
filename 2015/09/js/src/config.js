@@ -1,0 +1,3 @@
+var NoteApp = {
+  storageKey : 'note'
+};
