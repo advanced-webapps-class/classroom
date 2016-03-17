@@ -18,10 +18,10 @@ var page = 1;
 var startIndex = 0;
 var endIndex = 3;
 
-function showImageList(){
+function showImageList(imageList, start, end){
   var str = '';
-  for(var i=startIndex; i<endIndex; i++){
-    if(!todayPhoto[i]){
+  for(var i=start; i<end; i++){
+    if(!imageList[i]){
       break;
       // continue;
     }
@@ -44,7 +44,7 @@ nextBtn.addEventListener('click', function(){
 
     startIndex = 3;
     endIndex = 6;
-    showImageList();
+    showImageList(todayPhoto, startIndex, endIndex);
 
     page = 2;
   }
@@ -52,7 +52,7 @@ nextBtn.addEventListener('click', function(){
 
     startIndex = 6;
     endIndex = 9;
-    showImageList();
+    showImageList(todayPhoto, startIndex, endIndex);
 
     page = 3;
   }
@@ -61,4 +61,4 @@ nextBtn.addEventListener('click', function(){
 
 
 //실행
-showImageList();
+showImageList(todayPhoto, startIndex, endIndex);
