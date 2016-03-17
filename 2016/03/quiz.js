@@ -12,6 +12,7 @@ var todayPhoto = [
 var wrap = document.getElementById('wrap');
 var prevBtn = document.getElementById('prevBtn');
 var nextBtn = document.getElementById('nextBtn');
+var pageCount = document.getElementById('pageCount');
 
 
 var page = 1;
@@ -25,10 +26,11 @@ function showImageList(imageList, start, end){
       break;
       // continue;
     }
-    console.log(i);
+    console.log(page, i);
     str += '<img src="'+todayPhoto[i].img+'"> ';
   }
   wrap.innerHTML = str;
+  pageCount.innerHTML = page;
 }
 
 
@@ -44,18 +46,21 @@ nextBtn.addEventListener('click', function(){
 
     startIndex = 3;
     endIndex = 6;
+    page = 2;
+    
     showImageList(todayPhoto, startIndex, endIndex);
 
-    page = 2;
   }
   else if(page === 2){
 
     startIndex = 6;
     endIndex = 9;
+    page = 3;
+
     showImageList(todayPhoto, startIndex, endIndex);
 
-    page = 3;
   }
+
 });
 
 
