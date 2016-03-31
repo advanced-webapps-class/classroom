@@ -7,7 +7,6 @@ var template = document.getElementById('templateString').innerHTML;
 var models = [];
 
 for(var i=1; i<=9; i++){
-
  // models[i] = i;
  models[i] = []; //new Array();
  // str += ("<h2>" + i + "단 시작......</h2>");

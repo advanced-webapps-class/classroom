@@ -10,6 +10,19 @@
 
   <script type="text/template" id="templateString">
 
+  <%
+  for(var i=1; i < list.length; i++){
+  %>
+    <h2><%= i+1 %></h2>
+  <%
+      for(var k=1; k<=9; k++){
+  %>
+      <div><%= list[i][k] %></div>
+  <%
+    }
+  }
+  %>
+
   </script>
 
   <script src="tmpl.js"></script>
