@@ -7,25 +7,26 @@
 <body>
   <h1>영화정보</h1>
 
+  
   <ul id="wrap"></ul>
 
 <script type="text/template" id="movieListTemplate">
-
 <%
 for(var i=0; i<list.length; i++) {
   var movie = list[i];
 %>
   <li>
-    <h2><%= movie.title %></h2>
-    <img src="<%= movie.img %>" width="200" alt="">
-    <div>별점: <%= movie.starRating %></div>
-    <div><a href="<%= movie.link %>">예매하기</a></div>
+    <h3><%= movie.titleKo %></h2>
+    <img src="<%= movie.photo.fullname %>" width="100" alt="">
+    <div>평점: <%= movie.moviePoint.inspectPointAvg %></div>
+    <div><a href="http://m.movie.daum.net/moviedb/main?movieId=<%= movie.movieId %>">예매하기</a></div>
   </li>
 <%} %>
 </script>
 
   <script src="ajax.js"></script>
   <script src="jsonp.js"></script>
+  <script src="tmpl.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
