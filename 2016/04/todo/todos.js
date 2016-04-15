@@ -11,6 +11,7 @@ console.log(todoStringField);
 
 todoStringField.addEventListener('keyup', function (event) {
 
+  debugger
   // console.log('todoStringField keyup!');
   if(event.keyCode === 13){
 
