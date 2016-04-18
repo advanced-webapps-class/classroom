@@ -5,7 +5,7 @@
 
 ## 준비
 
-1. [Daum 검색 오픈API](/ajax/quiz-openapi.html) 사용
+1. [Daum 검색 오픈API](//begin.js.org/ajax/quiz-openapi.html) 사용
 1. [기본 마크업](./assets/test1-base.html)에서 시작
 
 
