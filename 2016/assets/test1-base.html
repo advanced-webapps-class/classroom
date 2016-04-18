@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>검색서비스</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>검색 서비스</h1>
+
+  <form  class="form-inline">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="검색어를 넣어주세요">
+      <div class="input-group-addon">
+        <button class="btnbtn-primary">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+  </form>
+
+
+  <ul  class="nav nav-tabs" style="margin-top:30px">
+    <li><a href="">게시판</a></li>
+    <li class="active"><a href="">동영상</a></li>
+    <li><a href="">이미지</a></li>
+    <li><a href="">팁</a></li>
+    <li><a href="">블로그</a></li>
+    <li><a href="">카페</a></li>
+  </ul>
+
+  <!-- 이미지 있을경우만 이미지 노출 -->
+  <div class="mov-panel" style="margin-top:30px">
+    <ul>
+      <li><a href="">벚꽃풍경 영상</a></li>
+      <li>
+        <img src="http://www.astrolove.kr/files/attach/images/143/339/200804100941-21628.jpg" width="100" alt="" class="img-thumbnail">
+        <a href="">예제 영상입니다</a></li>
+      <li><a href="">예제 영상입니다</a></li>
+      <li><a href="">예제 영상입니다</a></li>
+    </ul>
+  </div>
+
+  <!-- 더보기 있을경우만 노출 -->
+  <button class="btn btn-default btn-block">더보기</button>
+</div>
+</body>
+</html>

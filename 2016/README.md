@@ -2,7 +2,18 @@
 # 2016 Classroom
 
 ## 진행
+
+\* 과제있음
+
+
 - 01: 웹브라우저와 nodejs에서 기본 JS코드 작성, npm install serve, atom 패키지 설치, github 간단사용법
+- 02*: javscript (구구단퀴즈등)
+- 03*: javascript object model (Carousel, 게임만들기퀴즈)
+- 04*: ajax (영화)
+- 05: 실습
+- 06*: ajax (openapi퀴즈)
+- 07: 이전 수업 복습, nodejs기본
+
 
 ## 멤버
 
