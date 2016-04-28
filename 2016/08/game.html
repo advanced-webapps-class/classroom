@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  .wrap {
+    width: 440px;
+  }
+  .card div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  .card.open .front{
+    display: none;
+  }
+  .card.open .back{
+    display: block;
+  }
+  .card.close .front{
+    display: block;
+  }
+  .card.close .back{
+    display: none;
+  }
+
+  .front {
+
+    background-color: #ddd;
+
+  }
+  .back {
+    background-color: red;
+  }
+  </style>
+</head>
+<body>
+
+    <div class="wrap"></div>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
