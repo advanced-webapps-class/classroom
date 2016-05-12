@@ -21,6 +21,8 @@ function addEvent(){
 
   $wrap.on('click', '.card', function(event){
 
+
+debugger
     var $target = $(event.currentTarget);
     var num = $target.attr('num');
 
