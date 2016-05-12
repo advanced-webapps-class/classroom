@@ -13,6 +13,9 @@
 - 05: 실습
 - 06*: ajax (openapi퀴즈)
 - 07: 이전 수업 복습, nodejs기본
+- 08*: jQuery (메모리게임)
+- 09*: TodoApp,MV* (isDone구현) 
+
 
 
 ## 멤버
@@ -31,3 +34,11 @@
 1. [부종민](https://github.com/KrAndroid/front-end-start)
 1. [이제인](https://github.com/Cycopath/front-end-start)
 1. [송혜원](https://github.com/SongHye/front-end-start)
+
+
+## 링크
+
+* http://www.bloter.net/archives/252427
+* http://d2.naver.com/helloworld/3618177
+* http://ppss.kr/archives/76995
+* http://han41858.tistory.com/3
