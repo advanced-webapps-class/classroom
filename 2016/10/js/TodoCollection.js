@@ -15,7 +15,7 @@
       data.push(todo);
 
       // app.view.render(data);
-      app.$wrap.trigger("addCollection", [data]);
+      app.$wrap.trigger("addCollecuglify-jstion", [data]);
     },
     remove: function (id) {
 
