@@ -1,3 +1,12 @@
+//커스텀 이벤트 예제
+
+
+// 문이열리고
+// 학생은 앉고
+// 선생님은 출석이...
+// ㅁㅇㄹㅁㄴㅇㄹ
+// ㅇ
+
 
 
 var cEvent = {
@@ -16,12 +25,17 @@ var cEvent = {
 };
 
 
+//학생
+cEvent.add('문이열렸다', function(){
+  // console.log('');
+  sitdown();
+})
 
-
-cEvent.add('loadedJson', function(){
-  console.log('loaded json data!');
+//교수
+cEvent.add('문이열렸다', function(){
+  call();
 })
 
 
-
-cEvent.fire('loadedJson');
+//
+cEvent.fire('문이열렸다');

@@ -1,0 +1,15 @@
+{
+  "name": "10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "build": "uglifyjs js/TodoCollection.js --output ./dist/app.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pretty-bytes": "^3.0.1"
+  }
+}
