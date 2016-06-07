@@ -1,18 +1,16 @@
 {
   "name": "10",
   "version": "1.0.0",
-  "description": "",
-  "main": "test.js",
+  "description": "> 간단한 Todo 리스트 관리 웹어플리케이션을 만들어 본다",
+  "main": "build.js",
+  "dependencies": {
+    "pretty-bytes": "^3.0.1",
+    "uglify-js": "^2.6.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "build2": "uglifyjs js/TodoCollection.js --output ./dist/app.min.js",
-    "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "concat-files": "^0.1.0",
-    "pretty-bytes": "^3.0.1",
-    "uglify-js": "^2.6.2"
-  }
+  "license": "ISC"
 }
