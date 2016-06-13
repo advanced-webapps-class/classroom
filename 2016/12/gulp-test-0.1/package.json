@@ -1,0 +1,27 @@
+{
+  "name": "gulp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advanced-webapps-class/gulp-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advanced-webapps-class/gulp-test/issues"
+  },
+  "homepage": "https://github.com/advanced-webapps-class/gulp-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.9",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.6"
+  }
+}

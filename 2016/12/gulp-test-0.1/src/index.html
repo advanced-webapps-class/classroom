@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>Todos</title>
+  <link rel="stylesheet" href="todos.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Todo List</h1>
+
+    <!-- submit를 막기위해 return false처리 -->
+    <form class="new-task" onsubmit="return false">
+      <input type="text" name="text" placeholder="할일을 입력하세요"
+             id="todoString">
+    </form>
+  </header>
+  <ul id="todoList"> </ul>
+
+</div>
+
+<script type="text/template" id="todoTemplate">
+  <% for(var i=0; i < todos.length; i++) { %>
+  <li data-id="<%= todos[i].id %>">
+    <button class="delete">×</button>
+    <input type="checkbox" class="toggle-checked">
+    <span class="text"><%=todos[i].title%></span>
+  </li>
+  <%} %>
+</script>
+
+<!-- 하단에서 js 호출 권장 -->
+<script src="lib/jquery-1.11.2.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

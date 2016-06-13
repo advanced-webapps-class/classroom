@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>json-server</title>
+</head>
+<body>
+  <button id="btn-post">Create</button>
+  <button id="btn-get">Read</button>
+  <button id="btn-put">Update</button>
+  <button id="btn-delete">Delete</button>
+
+  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+<script>
+
+var apihost = '';//'http://localhost:3000';
+
+$('#btn-post').click(function(){
+  $.post(apihost + '/todos' , {title:'hi_' + (new Date().getTime() )}, function(result){
+    console.log('Create', result);
+  });
+});
+
+$('#btn-get').click(function(){
+  $.get(apihost + '/todos', function(result){
+    console.log('Read', result);
+  });
+});
+
+$('#btn-put').click(function(){
+  $.ajax({
+    url: apihost + '/todos/1',
+    method: 'PUT',
+    data: {title:'edit_' + (new Date().getTime() )},
+    success: function(result){
+      console.log('Update', result);
+    }
+  });
+});
+
+$('#btn-delete').click(function(){
+  $.ajax({
+    url: apihost + '/todos/1',
+    method: 'DELETE',
+    success: function(result){
+      console.log('Delete', result);
+    }
+  });
+
+});
+</script>
+
+</body>
+</html>
+
