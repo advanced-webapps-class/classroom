@@ -39,4 +39,4 @@
 1. [이익전](https://github.com/leeikjeun/frontend-web)
 1. [이오주](https://github.com/ojlee/frontend-web)
 1. [이종헌](https://github.com/JongheonLee94/frontend-web)
-1. [](https://github.com/bluebyte7/frontend-web)
+1. [고영민](https://github.com/bluebyte7/frontend-web)
