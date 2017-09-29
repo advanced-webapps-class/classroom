@@ -10,12 +10,83 @@ var todayPhoto = [
 
 ];
 
-//3개를 뿌려보자
-var wrap = document.querySelector('.wrap');
-var str = '';
 
-for(var i=0; i<3; i++){
-  str += '<img src="' + todayPhoto[i].img + '">';
+var page = 1;   // 1  = 0~3,  2 = 3~6, 3 = 6~9
+var listnum = 3; //한페이지당 보여질 이미지갯수
+
+var pageDom = document.getElementById('page');
+var totalPageDom = document.getElementById('totalPage');
+var totalPage= Math.ceil(todayPhoto.length / listnum);
+
+totalPageDom.innerHTML = totalPage;
+
+
+//3개를 뿌려보자
+function showList(){
+
+  console.log('page:',page)
+
+  var start = 0;
+  var end = 3;
+
+
+  start = (page - 1) * listnum;
+  end = page * listnum;
+
+  // if(page === 1){
+  //   start = 0;
+  //   end = 3;
+  // }
+  // else if(page === 2){
+  //   start = 3;
+  //   end = 6;
+  // }
+  // else if(page === 3){
+  //   start = 6;
+  //   end = 9;
+  // }
+
+  var wrap = document.querySelector('.wrap');
+  var str = '';
+
+  for(var i=start; i<end; i++){
+    if(todayPhoto[i]) {
+
+      str += '<img src="' + todayPhoto[i].img + '">';
+    }
+
+  }
+
+  wrap.innerHTML = str;
+  pageDom.innerHTML = page;
+
 }
 
-wrap.innerHTML = str;
+// 버튼에 이벤트 주기
+var nextbtn = document.getElementById('next');
+var prevbtn = document.getElementById('prev');
+
+nextbtn.addEventListener('click', function(){
+
+  console.log('next');
+  if(page < totalPage) {
+    page++;
+    showList();
+  }
+
+
+})
+prevbtn.addEventListener('click', function(){
+
+  console.log('prev');
+
+  if(page > 1) {
+    page--;
+  }
+
+  showList();
+
+})
+
+
+showList();
