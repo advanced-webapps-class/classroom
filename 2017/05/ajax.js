@@ -9,8 +9,7 @@ function load(){
 
   var request = new XMLHttpRequest();
 
-  request.open('GET', 'dummy.json', true);
-
+  request.open('GET', 'http://1boon.kakao.com/index.html', true);
   // console.log(request);
 
   request.onreadystatechange = function() {
