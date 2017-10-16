@@ -30,7 +30,7 @@
 1. [허승범](https://github.com/w1193/frontend-web)
 1. [김유진](https://github.com/zeenee/frontend-web)
 1. [정민준](https://github.com/alswnsWkd21/frontend-web)
-1. [이민혁](https://github.com/Lming1/frontend-web) -
+1. [이민혁](https://github.com/Lming1/frontend-web) 
 1. [홍성호](https://github.com/grohong/frontend-web)
 1. [백기훈](https://github.com/masinogns/Advanced-Web-Development)
 1. [허지원](https://github.com/llkjop24/frontend-web)
@@ -40,3 +40,4 @@
 1. [이오주](https://github.com/ojlee/frontend-web)
 1. [이종헌](https://github.com/JongheonLee94/frontend-web)
 1. [고영민](https://github.com/bluebyte7/frontend-web)
+1. [이가연](https://github.com/GayeonLee/front-end-start)
