@@ -26,12 +26,24 @@ page = 현재 페이지
 callback = jsonp callback
 ```
 
+#### 주요 프로퍼티 
+```
+data(Array)  리스트의 목록배열
+  data[].title  제목
+  data[].coverImage 이미지
+  data[].path 링크  ( http://1boon.kakao.com/{path} 로 링크 걸어주세요)
+  data[].totalView 조회수
+```
+
+
+
 ## 미션
  
 * 1boon 채널 탭 UI구현 (트렌딩, 이슈, 엔터)
 * 각 탭을 누를때마다 해당 API를 사용하여  결과 표시
 * 각 탭이 선택되면 `선택된 탭 class(active)` 적용 
 * JSONP 사용 [JSONP 모듈 사용](http://begin.js.org/ajax/module.html)
+* 가져온 데이터를 `id=list` 에 노출  ( 위에 `주요프로퍼티` 에 정의된 내용 노출)
 * `더보기` 버튼 기능 구현 ( page파라미터를 이용 )
 * 데이터가 로딩되는 동안 `로딩마크업` 보여주기 ( 기본마크업 참고)
 * JS 에러 발생하면 안됨
