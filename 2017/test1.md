@@ -6,6 +6,7 @@
 ## 준비
 
 1. [기본 마크업](./assets/test1-base.html)에서 시작
+1. 크롬 확장프로그램 [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) 설치
 
 
 ### API
