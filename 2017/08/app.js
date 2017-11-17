@@ -17,6 +17,14 @@
 
 // $('#btn').click(function(){
 // })
-$('#btn').on('click',function(){
-  $('div').animate({top: 200}, 1000);
+$('#login').on('click',function(event){
+
+
+  window.open($(event.currentTarget).attr('href'), 'login', 'width=400,height=400')
+  // event.stopPropagation();
+  // event.preventDefault();
+  return false;
+})
+$('div').on('click',function(){
+  console.log(1)
 })
