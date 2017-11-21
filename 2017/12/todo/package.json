@@ -1,0 +1,26 @@
+{
+  "name": "todo-webapp",
+  "version": "1.0.0",
+  "description": "> 간단한 Todo 리스트 관리 웹어플리케이션을 만들어 본다",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advanced-webapps-class/todo-webapp/issues"
+  },
+  "homepage": "https://github.com/advanced-webapps-class/todo-webapp",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {}
+}
