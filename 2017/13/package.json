@@ -5,13 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json",
-    "dev": "serve .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.12.1",
-    "serve": "^6.4.1"
-  }
+    "json-server": "^0.12.1"
+    }
 }
