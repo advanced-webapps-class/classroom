@@ -1,0 +1,11 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" },
+    { "id": 2, "title": "안녕하세요", "author": "aaaa" }
+
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
