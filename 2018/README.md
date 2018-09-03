@@ -12,7 +12,7 @@
 
 - 강재희 https://github.com/dkrlto0819/front-end-start.git
 - 문금경 https://github.com/geumkyeong/front-end-start
-- 최원범 https://github.com/WonBeomChoi/front-end-start
+- 최원범 https://github.com/WonBeomChoi/front-end-start
 - 김수현 https://github.com/rlatngus/front-end-start.git
 - 박윤지 https://github.com/yunjipark0623/front-end-start 
 - 문준성 https://github.com/gnoes/front-end-start
