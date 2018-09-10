@@ -7,6 +7,8 @@
 - https://github.com/devJang/developer-roadmap
 - 개발환경 준비 http://begin.js.org/intro/ready.html 
 
+### 02
+
 
 ## 멤버
 
@@ -29,4 +31,4 @@
 - 구수정 https://github.com/ninecrystal/front-end-start
 - 한윤석 https://github.com/YoonSeokHan/HYS
 - 김소영 https://github.com/soyeong-k/front-end-start
-- 
+- 김동현 https://github.com/xddongx/front-end-start 
