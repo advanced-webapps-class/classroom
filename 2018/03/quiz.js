@@ -18,3 +18,21 @@ for(var i=0; i<todayPhoto.length; i++){
 }
 
 wrap.innerHTML = str;
+
+
+
+1 = 0
+2 = 3
+3 = 6
+
+var page = 1;
+
+function getStartIndex(page) {
+
+  // if(page === 1) return 0;
+  // else if(page === 2) return 3;
+  // else if(page === 3) return 6;
+
+  var pageCount = 3; //한번에 보여질갯수
+  return (page - 1) * pageCount;
+}
