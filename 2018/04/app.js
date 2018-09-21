@@ -19,7 +19,9 @@ blocks.forEach(function(block){
 
   block.addEventListener('click', function(event) { 
     console.log(block);
-    block.style.backgroundColor = 'yellow';
+
+    // block.style.backgroundColor = 'yellow';
+    // block.className += ' y';
   })
 
 });
