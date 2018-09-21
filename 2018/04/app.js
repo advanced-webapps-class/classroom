@@ -3,9 +3,6 @@ var str = '';
 
 for(var i = 1; i <= 4; i++) {
   for(var j = 1; j <= 4; j++) {
-      // let block = document.createElement('div');
-      // block.className = (i + j) % 2 == 1 ? 'black' : 'white';
-      // wrap.appendChild(block);
       var className = (i + j) % 2 == 1 ? 'b' : 'w'; 
       str += '<div class="'+ className +'"></div>'  
   }
