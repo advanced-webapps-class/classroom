@@ -1,18 +1,15 @@
 .wrap {
 
+  width: 200px; 
 }
-/* .wrap > div{
-
-} */
-
-.wrap .b {
-  
+.wrap > div{
   width: 50px;
   height: 50px;
+  float: left;
+}
+.wrap .b {
   background-color: #000;
 }
 .wrap .w {
-  width: 50px;
-  height: 50px;
-  background-color: #eee;
+  background-color: red;
 }
