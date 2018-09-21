@@ -15,25 +15,23 @@ wrap.innerHTML = str;
 
 var blocks = document.querySelectorAll('.wrap > div');
 
-blocks.forEach(function(block){
+// blocks.forEach(function(block){
 
-  block.addEventListener('click', function(event) { 
-    console.log(block);
+//   block.addEventListener('click', function(event) { 
+//     console.log(block);
 
-    // block.style.backgroundColor = 'yellow';
-    // block.className += ' y';
-  })
+//     // block.style.backgroundColor = 'yellow';
+//     // block.className += ' y';
+//   })
 
-});
+// });
+function select(event) {
+  var block = event.currentTarget;
+  block.style.backgroundColor = 'yellow';
+}
+for(var i=0; i < 16; i++) {
+  // console.log( blocks[i] );
 
-// for(var i=0; i < 16; i++) {
-//   // console.log( blocks[i] );
+  blocks[i].addEventListener('click', select);
 
-//   blocks[i].addEventListener('click', function(event) {
-
-//     debugger
-//     blocks[i].style.backgroundColor = 'yellow';
-    
-//   });
-
-// }
+}
