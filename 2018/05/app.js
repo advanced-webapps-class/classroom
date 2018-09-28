@@ -20,4 +20,8 @@ function jsonp() {
   head.appendChild(script);
 }
 
+function callback(data) {
+  console.log(data)
+  document.getElementById('name').innerHTML = data.name;
+}
 jsonp();

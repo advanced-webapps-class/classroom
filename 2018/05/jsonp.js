@@ -1,0 +1,3 @@
+callback({
+  "name": "ajax"
+})
