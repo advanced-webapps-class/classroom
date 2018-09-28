@@ -12,12 +12,16 @@ function print(json) {
   for (var i = 0; i < json.data.length; i++) {
     var title = json.data[i].title;
     var path = json.data[i].path;
-    str +=
-      '<a href="https://1boon.kakao.com/' +
-      path +
-      '" target="_blank">' +
-      title +
-      '</a><br>';
+
+    // str +=
+    //   '<a href="https://1boon.kakao.com/' +
+    //   path +
+    //   '" target="_blank">' +
+    //   title +
+    //   '</a><br>';
+
+    //https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals
+    str += `<a href="http://1boon.kakao.com/${path}" target="_blank">${title}</a><br>`;  
   }
 
   document.getElementById('wrap').innerHTML = str;
