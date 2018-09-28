@@ -3,8 +3,19 @@ console.log('1boon');
 var url = 'https://1boon.kakao.com/ch/enter.json?page=1&pagesize=10';
 
 
-getUrlData(url, function(data){
-  console.log( data );
+getUrlData(url, function(json){
+  console.log( json );
+
+  var str = '';
+
+  for(var i=0; i < json.data.length; i++){
+
+    var title = json.data[i].title;
+    var path =json.data[i].path; 
+    str += '<a href="https://1boon.kakao.com/'+path+'">' + title + '</a><br>';
+  }
+
+  document.getElementById('wrap').innerHTML = str;
 })
 
 
