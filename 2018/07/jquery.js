@@ -2,7 +2,7 @@
 
 //  $('h1').fadeOut().delay(1000).fadeIn();
 
-var $div = $('div')
+// var $div = $('div')
 
 // $div
 //   .css('background-color', 'yellow')
@@ -14,3 +14,21 @@ var $div = $('div')
 // for(var i=0 ; i < divs.length; i++) {
 //   divs[i].style.backgroundColor = 'red';
 // }
+
+
+
+
+var $btn = $('#btn');
+var $txt = $('#txt');
+var $debug = $('#debug');
+
+$btn.on('click', function(event){
+  console.log('click')
+  if($txt.val() === '') {
+    alert('값을 넣어주세요')
+    return;
+  }
+
+  $debug.html($txt.val());
+
+});
