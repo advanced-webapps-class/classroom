@@ -110,6 +110,11 @@ header .hide-completed {
   margin-left: 5px;
 }
 
+span.text.done {
+  text-decoration: line-through;
+  color:#7d7d7d;
+}
+
 @media (max-width: 600px) {
   li {
     padding: 12px 15px;

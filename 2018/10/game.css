@@ -1,0 +1,14 @@
+.box {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+#bug {
+  width:20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
