@@ -15,6 +15,7 @@
   position: absolute;
   top: 35px;
   left: 35px;
+  cursor: pointer;
 }
 .wrap {
   margin: 10px auto;
