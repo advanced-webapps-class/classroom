@@ -16,3 +16,11 @@
   top: 35px;
   left: 35px;
 }
+.wrap {
+  margin: 10px auto;
+  width: 500px;
+  
+}
+#point , #life {
+  color: blue;
+}
