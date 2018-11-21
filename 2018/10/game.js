@@ -1,7 +1,8 @@
-var wrapWidth = 300;
-var bugWidth = 30;
+var wrapWidth = $wrap.offsetWidth;
+var bugWidth = $box.offsetWidth;
 var $bug = document.querySelector('#bug');
 var $box = document.querySelector('.box');
+var $wrap = document.querySelector('.wrap');
 var $point = document.querySelector('#point');
 var $life= document.querySelector('#life');
 var point = 0;
