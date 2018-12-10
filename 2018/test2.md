@@ -12,7 +12,7 @@
   1. 전체화면: 버튼 추가하고  누르면 전체화면 모드로 전환
     * 직접 기능구현 및 라이브러리 검색 http://begin.js.org/html5/quiz.html
   1. about: 클릭하면 레이어(div)로 center에 어플리케이션정보 나오도록 처리
-  1. github링크: 본인의 깃허브 주소를 연결(frontend-start)
+  1. github 링크: 본인의 깃허브 주소를 연결(frontend-start)
 * 최초 진입시 localStorage에 저장된 내용이 있으면 textarea에 표시
 * [package.json](http://begin.js.org/nodejs/npm.html) 작성
 * javascript 에러가 발생하면 안됨
