@@ -29,7 +29,7 @@ https://start-fe.surge.sh/
 - 송민혁 https://github.com/songminhyeok/start-fe
 - 양우건 https://github.com/YangWooGun/start-fe
 - 양현준 https://github.com/ltsme/start-fe
-- 오장훈
+- 오장훈 https://github.com/ojh4105/start-fe
 - 원동훈 https://github.com/DongHunWon/start-fe
 - 이민재 https://github.com/minjae-L/start-fe
 - 이진우 https://github.com/khl2bb/start-fe
