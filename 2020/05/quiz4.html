@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #box {
+        width: 150px;
+        height: 100px;
+        background-color: #999;
+        left: 200px;
+        top: 200px;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+      Drag me!
+    </div>
+
+    <ol>
+      <li>박스를 누르면 드래그가 시작됩니다 (mousedown 이벤트)</li>
+      <li>
+        마우스가 눌린 상태로 마우스를 움직이면 박스가 마우스 커서를 따라
+        움직입니다 (mousemove 이벤트)
+      </li>
+      <li>클릭을 해제하면 드래그가 멈춥니다 (mouseup 이벤트)</li>
+    </ol>
+
+    <script src="quiz4.js"></script>
+  </body>
+</html>

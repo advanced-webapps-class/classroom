@@ -1,0 +1,11 @@
+body {
+  padding: 10px;
+}
+.box {
+  width: 100px;
+  height: 30px;
+  background-color: #ddd;
+}
+.red {
+  background-color: red;
+}

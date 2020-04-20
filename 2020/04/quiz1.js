@@ -1,4 +1,4 @@
-var todayPhoto = [
+const todayPhoto = [
   {
     url: 'http://media.daum.net/photo/2841',
     img: 'http://icon.daumcdn.net/w/c/12/05/82877085750988319.jpeg',
@@ -53,11 +53,11 @@ var listNum = 3;
 var page = 1;
 var totalPage = Math.ceil(todayPhoto.length / listNum);
 
-var $wrap = document.getElementById('wrap');
-var $btnPrev = document.querySelector('.btn1');
-var $btnNext = document.querySelector('.btn2');
-var $page = document.querySelector('.page');
-var $totalPage = document.querySelector('.total-page');
+const $wrap = document.getElementById('wrap');
+const $btnPrev = document.querySelector('.btn1');
+const $btnNext = document.querySelector('.btn2');
+const $page = document.querySelector('.page');
+const $totalPage = document.querySelector('.total-page');
 
 function prev() {
   if (page === 1) return;
@@ -80,7 +80,8 @@ function printImg(page) {
   var str = '';
   for (var i = startIndex; i < startIndex + listNum; i++) {
     if (todayPhoto[i]) {
-      str += '<img src="' + todayPhoto[i].img + '"> ';
+      // str += '<img src="' + todayPhoto[i].img + '"> ';
+      str = `<img src="${todayPhoto[i].img}">`;
     }
   }
 
