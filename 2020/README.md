@@ -7,7 +7,7 @@ https://start-fe.surge.sh/
 - 강건희 https://github.com/witmaos6/start-fe
 - 강수연 https://github.com/incuriositas/start-fe
 - 강용재 https://github.com/YongJup/start-fe
-- 강주희
+- 강주희 https://github.com/dululy/start-fe
 - 고혜림 https://github.com/kohyerim/start-fe
 - 김규리 https://github.com/asdf130700/start-fe
 - 김기현 https://github.com/Key5771/start-fe
