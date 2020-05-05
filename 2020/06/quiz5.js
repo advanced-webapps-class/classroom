@@ -1,4 +1,4 @@
-let offset = { x: 0, y: 0 };
+const offset = { x: 0, y: 0 };
 let isDown = false;
 let dragDom = null;
 
@@ -23,8 +23,8 @@ function addEvent() {
     // console.log('mousemove');
     // console.log(event.clientX, event.clientY);
 
-    dragDom.style.left = event.clientX + offset.x + 'px';
-    dragDom.style.top = event.clientY + offset.y + 'px';
+    dragDom.style.left = `${event.clientX + offset.x}px`;
+    dragDom.style.top = `${event.clientY + offset.y}px`;
   });
 }
 

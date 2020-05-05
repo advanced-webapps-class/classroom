@@ -14,6 +14,10 @@ function showBug() {
 function hideBug() {
   $bug.style.display = 'none';
 }
+function getRandom(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function move() {
   showBug();
   const x = getRandom($box.offsetWidth - $bug.offsetWidth);
@@ -23,8 +27,9 @@ function move() {
   $bug.style.top = `${y}px`;
 }
 
-function getRandom(max) {
-  return Math.floor(Math.random() * max);
+function start() {
+  clearInterval(timerId);
+  timerId = setInterval(move, bugSpeed);
 }
 
 function hit(event) {
@@ -40,16 +45,12 @@ const minusLife = () => {
   $life.innerHTML = life;
   setTimeout(() => {
     if (life === 0) {
+      // eslint-disable-next-line no-alert
       alert('gameover!');
       clearInterval(timerId);
     }
   }, 0);
 };
-
-function start() {
-  clearInterval(timerId);
-  timerId = setInterval(move, bugSpeed);
-}
 
 start();
 $box.addEventListener('click', minusLife);
