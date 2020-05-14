@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz9</title>
+    <style>
+      .container {
+        width: 600px;
+        margin: 0 auto;
+      }
+      input {
+        width: 50%;
+        padding: 5px;
+        margin: 5px 0;
+      }
+      button {
+        padding: 5px;
+      }
+      textarea {
+        padding: 5px;
+        width: 100%;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>fetch()</h1>
+      <ul>
+        <li>
+          url을 입력하고 가져오기 버튼을 누르면 하단(log)에 가져온 부분 출력
+        </li>
+        <li>에러시에도 내용 log에 출력</li>
+        <li>url 입력폼에서 엔터를 칠경우 가져오기 동작</li>
+        <li>성공 : quiz9.html 입력후 가져오기</li>
+        <li>에러 : https://daum.net 입력후 가져오기</li>
+        <li>개발자도구에서 네트워크,콘솔 항목 참고</li>
+      </ul>
+      <div>
+        <input type="text" id="url" placeholder="url 입력" />
+        <button id="btn">가져오기</button>
+      </div>
+      <textarea id="log" placeholder="log"></textarea>
+    </div>
+    <script src="quiz9.js"></script>
+  </body>
+</html>
