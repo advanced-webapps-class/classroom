@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>카카오 오픈 API</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>다음 검색</h1>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="검색어를 입력하세요"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+          id="search-text"
+          value="제주"
+        />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="search-btn">
+            검색
+          </button>
+        </div>
+      </div>
+
+      <div id="result"></div>
+      <!-- <ul class="list-group list-group-flush" >
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li> 
+      </ul> -->
+    </div>
+    <script src="kakao.js"></script>
+  </body>
+</html>
