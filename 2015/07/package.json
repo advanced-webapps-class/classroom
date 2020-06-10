@@ -4,7 +4,7 @@
   "description": "",
   "main": "100.js",
   "dependencies": {
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "pretty-bytes": "^1.0.4"
   },
   "devDependencies": {
