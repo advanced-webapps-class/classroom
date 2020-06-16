@@ -7,6 +7,8 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
+    React: true,
+    ReactDOM: true,
   },
   parserOptions: {
     ecmaVersion: 2018,
