@@ -16,7 +16,9 @@ body {
 
   font-size: 14px;
 }
-
+#root {
+  height: 100%;
+}
 .container {
   max-width: 600px;
   margin: 0 auto;
