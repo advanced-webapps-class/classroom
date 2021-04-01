@@ -39,7 +39,7 @@ https://jnuclass.jejunu.ac.kr/
 - [박준형](https://github.com/alzseven/start-fe)
 - [박현범](https://github.com/hyunbum-2/start-fe)
 - [오민성](https://github.com/qww1552/start-fe)
-- [유은지][https://github.com/y00eunji/start-fe]
+- [유은지](https://github.com/y00eunji/start-fe)
 - [원호진](https://github.com/wonhojin/start_fe)
 - [윤준](https://github.com/jjuny4720/star-fe.git)
 - [이도현](https://github.com/xxria17/start-fe)
