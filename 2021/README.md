@@ -1,0 +1,49 @@
+# start-fe-2021
+
+https://jnuclass.jejunu.ac.kr/
+
+## Keyword
+
+- [ZSH](https://medium.com/harrythegreat/oh-my-zsh-iterm2%EB%A1%9C-%ED%84%B0%EB%AF%B8%EB%84%90%EC%9D%84-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-a105f2c01bec)
+- [bash zsh](https://www.google.com/search?q=bash+zsh&oq=bash+zsh&aqs=chrome.0.69i59j0l6j69i60.197j0j1&sourceid=chrome&ie=UTF-8)
+- [FE로드맵](https://smoh.tistory.com/388)
+- [플러터](https://flutter-ko.dev/)
+- [웹과인터넷의 이해](https://www.youtube.com/watch?v=fnBJ6JPXOJo&list=PL-cD8pbS-mXgu22w7auoyTxND5_uzj3Qk)
+- [try..catch](https://chiabi.github.io/2018/06/11/try-catch/)
+- [javascript VS java](https://www.ciokorea.com/news/187473?fbclid=IwAR0iJO5pmYabYcvZMaml2uMgf8J0ZnOCWdwIbhd2O9yH6Dox2AxkHJ8Mghc)
+- [키오스크 접근성](https://bbs.ruliweb.com/community/board/300143/read/51254624)
+- [isNaN](https://stackoverflow.com/questions/115548/why-is-isnannull-false-in-js)
+
+## 학생
+
+- [강란규](https://github.com/Yurang4/start-fe)
+- [강민아](https://github.com/getupminaaa/start-fe.git)
+- [강민주](https://github.com/ki-squared/start-fe)
+- [강성범](https://github.com/kang-seongbeom/start-fe)
+- [고대은](https://github.com/acisliver/start-fe)
+- [고지영](https://github.com/jiyoung0913/start-fe)
+- [고지훈](https://github.com/rhwlgns4386/start-fe)
+- [김석현](https://github.com/5eokhwan/start-fe.git)
+- [김선규](https://github.com/ksg0605/start-fe)
+- [김수진](https://github.com/skycat0212/start-fe)
+- [김웅조](https://github.com/13113a/start-fe)
+- [김장혁](https://github.com/d0orHyeok/start-fe)
+- [김재현](https://github.com/tjvm0877/Start_FE)
+- [김정수](https://github.com/kimjungsoo119/start-fe)
+- [김지현](https://github.com/hijihyun/start-fe)
+- [김진혁](https://github.com/5681jin/start-fe)
+- [김한승](https://github.com/hshk1004/start-fe)
+- [김희범](https://github.com/C7C4FF/start-fe)
+- [나은찬](https://github.com/Padong/start-fe.git)
+- [박선영](https://github.com/seonyeong98/start-fe)
+- [박준형](https://github.com/alzseven/start-fe)
+- [박현범](https://github.com/hyunbum-2/start-fe)
+- [오민성](https://github.com/qww1552/start-fe)
+- [원호진](https://github.com/wonhojin/start_fe)
+- [윤준](https://github.com/jjuny4720/star-fe.git)
+- [이도현](https://github.com/xxria17/start-fe)
+- [임혜원](https://github.com/claraqn/start-fe)
+- [전영탁](https://github.com/gjunyt/start_fe)
+- [진락천](https://github.com/Lightninglogo/3.7first-try/blob/main/che.html)
+- [한명훈](https://github.com/hoonisone/start_fe)
+- [현준용](https://github.com/hyunjunyong/start-fe-junyong)
