@@ -13,6 +13,10 @@ https://jnuclass.jejunu.ac.kr/
 - [javascript VS java](https://www.ciokorea.com/news/187473?fbclid=IwAR0iJO5pmYabYcvZMaml2uMgf8J0ZnOCWdwIbhd2O9yH6Dox2AxkHJ8Mghc)
 - [키오스크 접근성](https://bbs.ruliweb.com/community/board/300143/read/51254624)
 - [isNaN](https://stackoverflow.com/questions/115548/why-is-isnannull-false-in-js)
+- [jQuery](https://jquery.com/)
+- [좋은코드란?](https://jbee.io/etc/what-is-good-code/)
+- [변수이름짓기](https://quasarzone.com/bbs/qb_tip/views/8366)
+
 
 ## 학생
 
