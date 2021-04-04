@@ -48,3 +48,4 @@ https://jnuclass.jejunu.ac.kr/
 - [진락천](https://github.com/Lightninglogo/3.7first-try/blob/main/che.html)
 - [한명훈](https://github.com/hoonisone/start_fe)
 - [현준용](https://github.com/hyunjunyong/start-fe-junyong)
+- [진용두](https://github.com/realdragonhead/start-fe)
