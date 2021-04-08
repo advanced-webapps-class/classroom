@@ -52,3 +52,4 @@ https://jnuclass.jejunu.ac.kr/
 1. [한명훈](https://github.com/hoonisone/start_fe)
 1. [현준용](https://github.com/hyunjunyong/start-fe-junyong)
 1. [진용두](https://github.com/realdragonhead/start-fe)
+1. [김승민](https://github.com/tmdals8030/start-fe)
