@@ -2,8 +2,8 @@ const $point = document.querySelector('#point');
 const $life = document.querySelector('#life');
 const $bug = document.querySelector('#bug');
 const $box = document.querySelector('.box');
-const bugSpeed = 3000;
 
+const bugSpeed = 3000;
 let point = 0;
 let life = 10;
 let timerId = 0;
@@ -17,8 +17,14 @@ function hideBug() {
 function getRandom(max) {
   return Math.floor(Math.random() * max);
 }
+function isLiveBug() {
+  return $bug.style.display === 'block';
+}
 
 function move() {
+  if (isLiveBug()) {
+    minusLife();
+  }
   showBug();
   const x = getRandom($box.offsetWidth - $bug.offsetWidth);
   const y = getRandom($box.offsetHeight - $bug.offsetHeight);
