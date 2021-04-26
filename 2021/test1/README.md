@@ -31,7 +31,7 @@
 
 - private 레파지토리 생성 (1boon-tab)
 - 의미에 맞는 commit 메세지 작성
-- https://github.io/{본인의ID}/1boon-tab
+- https://github.com/{본인의ID}/1boon-tab
 - `niceaji` [collaborator로 레파지토리 초대](https://hengbokhan.tistory.com/140)
 
 ### 코드
