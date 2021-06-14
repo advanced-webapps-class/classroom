@@ -27,8 +27,6 @@
 
 #### [quiz.json](src/quiz.json): 퀴즈내용 데이터(중간고사,기말고사 포함)
 
-표
-
 - title: 퀴즈 제목
 - docUrl: 퀴즈 내용 문서 url
 - previewUrl: 퀴즈의 이미보기 url (html)
