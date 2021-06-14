@@ -1,0 +1,15 @@
+.icon {
+  font-size: 1.4em;
+}
+a.badge {
+  text-decoration: none;
+}
+.btnwrap {
+  text-align: right;
+}
+.titlewrap {
+  margin-top: 2.8em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+}

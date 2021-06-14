@@ -1,0 +1,28 @@
+[
+  {
+    "title": "수업소개",
+    "docUrl": "https://start-fe.surge.sh",
+    "links": [],
+    "gitUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/01",
+    "date": "2021-03-04"
+  },
+  {
+    "title": "JS기본문법1",
+    "docUrl": "https://start-fe.surge.sh/js/",
+    "links": [],
+    "gitUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/02",
+    "date": "2021-03-11"
+  },
+  {
+    "title": "JS기본문법2",
+    "docUrl": "https://start-fe.surge.sh/js/",
+    "links": [
+      "https://developer.mozilla.org/ko/docs/Learn/Common_questions/What_is_a_URL",
+      "https://www.slideshare.net/HyeonSeokChoi/http-1-59184615",
+      "https://bbs.ruliweb.com/community/board/300143/read/51254624",
+      "https://www.google.com/search?q=%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC+%EC%A3%BC%EB%AC%B8+%EC%96%B4%EB%A0%A4%EC%9B%80&aqs=chrome..69i57.203j0j1&sourceid=chrome&ie=UTF-8"
+    ],
+    "gitUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/03",
+    "date": "2021-03-18"
+  }
+]

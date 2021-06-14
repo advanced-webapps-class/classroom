@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나의 프론트엔드 개발기</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- 홍길동: 본인의 이름을 적어주세요 -->
+        <a class="navbar-brand" href="/">나의 프론트엔드 개발기 (홍길동)</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="titlewrap">
+        <h3>학습</h3>
+        <div class="btnwrap">
+          <!-- 학습리스트 필터 -->
+          <div class="btn-group" role="group">
+            <!-- 선택된 버튼에만 active 속성 추가 -->
+            <button type="button" class="btn btn-outline-primary active">
+              모두
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+              도움링크
+            </button>
+            <button type="button" class="btn btn-outline-primary">git</button>
+            <button type="button" class="btn btn-outline-primary">
+              최신순
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- loading중에 표시합니다. -->
+      <!-- <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div> -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">주차</th>
+            <!-- title -->
+            <th scope="col">제목</th>
+            <!-- docUrl -->
+            <th scope="col">학습내용</th>
+            <!-- link -->
+            <th scope="col">도움링크</th>
+            <!-- date -->
+            <th scope="col">날짜</th>
+            <!-- gitUrl -->
+            <th scope="col" width="100">실습</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>수업소개</td>
+            <td>
+              <a href="https://start-fe.surge.sh" class="badge bg-secondary"
+                >문서</a
+              >
+            </td>
+            <td></td>
+            <td>2021-03-04</td>
+            <td>
+              <a
+                href="https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/01"
+                >git</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>JS기본문법1</td>
+            <td>
+              <a href="https://start-fe.surge.sh/js/" class="badge bg-secondary"
+                >문서</a
+              >
+            </td>
+            <td></td>
+            <td>2021-03-11</td>
+            <td>
+              <a
+                href="https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/02"
+                >git</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>JS기본문법2</td>
+            <td>
+              <a href="https://start-fe.surge.sh/js/" class="badge bg-secondary"
+                >문서</a
+              >
+            </td>
+            <td>
+              <a
+                href="https://developer.mozilla.org/ko/docs/Learn/Common_questions/What_is_a_URL"
+                class="badge bg-secondary"
+                >1</a
+              >
+              <a
+                href="https://www.slideshare.net/HyeonSeokChoi/http-1-59184615"
+                class="badge bg-secondary"
+                >2</a
+              >
+              <a
+                href="https://bbs.ruliweb.com/community/board/300143/read/51254624"
+                class="badge bg-secondary"
+                >3</a
+              >
+            </td>
+            <td>2021-03-18</td>
+            <td>
+              <a
+                href="https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/03"
+                >git</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="titlewrap">
+        <h3>퀴즈</h3>
+        <!-- 퀴즈리스트 필터 -->
+        <div class="btnwrap">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-outline-primary active">
+              모두
+            </button>
+            <button type="button" class="btn btn-outline-primary">git</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- loading중에 표시합니다. -->
+      <!-- <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div> -->
+      <table class="table">
+        <thead>
+          <tr>
+            <!-- title -->
+            <th scope="col">제목</th>
+            <!-- docUrl -->
+            <th scope="col">문제</th>
+            <!-- previewUrl -->
+            <th scope="col">미리보기</th>
+            <!-- gitUrl -->
+            <th scope="col" width="100">실습</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>이미지슬라이드</td>
+            <td>
+              <a
+                class="badge bg-secondary"
+                href="https://gist.github.com/niceaji/640626074018a93ab4bced4dd9bdcf95"
+                >문서</a
+              >
+            </td>
+            <td><a href="">보기</a></td>
+            <td><a href="">git</a></td>
+          </tr>
+          <tr>
+            <td>체스보드</td>
+            <td>
+              <a
+                class="badge bg-secondary"
+                href="https://gist.github.com/niceaji/640626074018a93ab4bced4dd9bdcf95"
+                >문서</a
+              >
+            </td>
+            <td><a href="">보기</a></td>
+            <td><a href="">git</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
