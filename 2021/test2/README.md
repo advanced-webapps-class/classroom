@@ -69,6 +69,7 @@
 1. 퀴즈리스트 필터 (마크업 위치표시)
    - 모두: quiz.json 모든 속성 표시
    - git: 실습한 git주소가 있는 속성만 표시
+1. [webpack 빌드 환경](http://start-fe.surge.sh/module/build.html) 구성 
 1. JS 에러 발생하면 안됨
 1. JS 네이티브 함수 사용, 최신 DOM 사용하여 구현
 1. JS 모듈화,함수화
