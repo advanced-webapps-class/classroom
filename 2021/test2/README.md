@@ -48,7 +48,7 @@
 ### git
 
 - private 레파지토리 생성 (start-fe-2021)
-  - ex) https://github./{본인의ID}/start-fe-2021
+  - ex) https://github.com/{본인의ID}/start-fe-2021
 - 의미에 맞는 commit 메세지 작성
 - `niceaji` [collaborator로 레파지토리 초대](https://hengbokhan.tistory.com/140)
 
