@@ -63,8 +63,34 @@ console.log('03');
 //   // .....
 // }
 
-function test() {
-  console.log('test()');
-}
+// function test() {
+//   console.log('test()');
+// }
 // var id = setTimeout(test, 1000);
-setInterval(test, 1000);
+// setInterval(test, 1000);
+
+// function a() {
+//   console.log('a');
+//   function b() {}
+// }
+
+// var a = 2;
+
+// // 익명 즉시실행함수, 스코프 보호
+// (function () {
+//   var a = 1;
+//   console.log(a);
+// })();
+
+// function sum(x, y) {
+//   // if (!y) y = 1;
+//   console.log(x + y);
+// }
+// sum(3);
+
+var text = 'abc def ghi jkl abc def';
+var testReg = /1@/;
+
+var result = testReg.test(text);
+
+console.log(result); // true

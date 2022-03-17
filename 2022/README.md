@@ -7,7 +7,7 @@ https://jnuclass.jejunu.ac.kr/
 1. 강혁준 https://github.com/CaffeineJUN/start-fe
 1. 고동협 https://github.com/kodonghyup/star-fe
 1. 고세종 https://github.com/SebellKo/start-fe
-1. 김경범 https://github.com/Kimkyeongbeom4844/start-fe/tree/main/01
+1. 김경범 https://github.com/Kimkyeongbeom4844/start-fe
 1. 김나연 https://github.com/nayeon0731/start-fe
 1. 김도윤 https://github.com/Austinia/start-fe
 1. 김민석 https://github.com/kms278711/start-fe
