@@ -34,3 +34,7 @@ https://jnuclass.jejunu.ac.kr/
 1. 허정민 https://github.com/hjm8560/start-fe
 1. 현수빈 https://github.com/Subinhyun/start-fe
 1. 홍기준 https://github.com/stone-punch/start-fe-2022
+
+## 설문
+
+<img src="https://i.imgur.com/3zpICut.png" width="500">
