@@ -37,5 +37,6 @@ console.log('04');
 var link = document.querySelector('a');
 link.addEventListener('click', function (event) {
   window.open('https://www.daum.net');
+
   event.preventDefault();
 });
