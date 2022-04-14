@@ -1,5 +1,5 @@
 let $dragEl = null;
-
+let position = 10;
 // console.log($box.offsetTop);
 
 let offset = { x: 0, y: 0 };
@@ -16,6 +16,10 @@ document.body.addEventListener('mousemove', (event) => {
   // $box.style.left = event.clientX;
   // $box.style.top = event.clientY;
 });
+document.addEventListener('mouseup', (event) => {
+  isDown = false;
+  console.log('mouseup');
+});
 
 function startDrag(el) {
   el.addEventListener('mousedown', (event) => {
@@ -23,15 +27,12 @@ function startDrag(el) {
     isDown = true;
     // console.log($box.offsetLeft);
     console.log('mousedown');
+
     offset.x = $dragEl.offsetLeft - event.clientX;
     offset.y = $dragEl.offsetTop - event.clientY;
+    $dragEl.style.zIndex = position++;
     // offset.x = event.clientX;
     // offset.y = event.clientY;
-  });
-
-  el.addEventListener('mouseup', (event) => {
-    isDown = false;
-    console.log('mouseup');
   });
 }
 // -----------------
