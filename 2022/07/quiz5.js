@@ -1,3 +1,5 @@
+// 'use strict';
+
 let $dragEl = null;
 let position = 10;
 // console.log($box.offsetTop);
