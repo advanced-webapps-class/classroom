@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
   <style>
-    #box {
+    .box {
       width: 150px;
       height: 100px;
       background-color: #999;
@@ -11,10 +11,16 @@
       top: 200px;
       position: absolute;
     }
+		.box2{
+			left: 500px;
+		}
   </style>
 </head>
 <body>
-  <div id="box">
+  <div class="box box1">
+    Drag me!
+  </div>
+  <div class="box box2">
     Drag me!
   </div>
 
@@ -26,6 +32,6 @@
     </li>
     <li>클릭을 해제하면 드래그가 멈춥니다 (mouseup 이벤트)</li>
   </ol>
-    <script src="quiz41.js"></script>
+    <script src="quiz5.js"></script>
   </body>
 </html>
