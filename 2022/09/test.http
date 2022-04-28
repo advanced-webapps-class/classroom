@@ -1,0 +1,3 @@
+# test.http 파일로 저장
+GET https://daum.net
+
