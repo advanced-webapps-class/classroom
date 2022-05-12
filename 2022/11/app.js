@@ -36,6 +36,7 @@ function search() {
 $searchButton.addEventListener('click', search);
 $query.addEventListener('keydown', (event) => {
   if (event.key !== 'Enter') return;
+  // console.log(event.keyCode);
   search();
 
   // if (event.key === 'Enter') {
