@@ -1,5 +1,7 @@
-const url = `https://dapi.kakao.com/v2/search/web?query=이효리`;
+const url = `https://dapi.kakao.com/v2/search/web?query=#query`;
 const $docs = document.querySelector('#docs');
+const $query = document.querySelector('#query');
+const $searchButton = document.querySelector('#searchButton');
 
 function getFetch(url, callback) {
   const headers = {
@@ -11,16 +13,32 @@ function getFetch(url, callback) {
     .then((data) => callback(data));
 }
 
-getFetch(url, (data) => {
-  const { documents } = data;
-  // const documents = data.documents;
-  console.log(documents);
+function search() {
+  const query = $query.value;
+  const searchUrl = url.replace('#query', query);
+  // url = url.replace('#query', query);
 
-  const docs = documents.map((document) => {
-    // console.log(document);
-    return document.contents;
+  getFetch(searchUrl, (data) => {
+    const { documents } = data;
+    // const documents = data.documents;
+    console.log(documents);
+
+    const docs = documents.map((document) => {
+      // console.log(document);
+      return document.contents;
+    });
+
+    // console.log(docs);
+    $docs.innerHTML = docs.join('<hr>');
   });
+}
 
-  // console.log(docs);
-  $docs.innerHTML = docs.join('<hr>');
+$searchButton.addEventListener('click', search);
+$query.addEventListener('keydown', (event) => {
+  if (event.key !== 'Enter') return;
+  search();
+
+  // if (event.key === 'Enter') {
+  //   search();
+  // }
 });
