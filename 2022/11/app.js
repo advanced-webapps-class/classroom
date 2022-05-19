@@ -1,4 +1,4 @@
-const url = `https://dapi.kakao.com/v2/search/web?query=#query`;
+const url = `https://dapi.kakao.com/v2/search/web?query=#query&page=2`;
 const $docs = document.querySelector('#docs');
 // const $query = document.querySelector('#query');
 const $searchButton = document.querySelector('#searchButton');
