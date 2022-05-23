@@ -1,8 +1,5 @@
-import sum1 from './sum';
+const queryString = require('query-string');
+console.log(location.search);
 
-console.log(sum1(1, 2));
-// console.log(sum1(1111, 2));
-// console.log(sum1(22, 2));
-// console.log(sumk(2, 2));
-// console.log(sum2(12, 2));
-// console.log(sum2(12, 2));
+const query = queryString.parse(location.search);
+console.log(query.a);
