@@ -22,8 +22,8 @@
     "title": "수업소개",
     "docUrl": "https://start-fe.surge.sh",
     "links": [],
-    "gitUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2020/01",
-    "date": "2021-03-04"
+    "gitUrl": "https://github.com/advanced-webapps-class/classroom/tree/gh-pages/2022/01",
+    "date": "2022-03-04"
   },
 ```
 
@@ -54,7 +54,7 @@
 
 ### 코드
 
-1. [index.html](src/index.html)과 같은 모습 구현, [미리보기](https://advanced-webapps-class.github.io/classroom/2021/test2/src)
+1. [index.html](src/index.html)과 같은 모습 구현, [미리보기](https://advanced-webapps-class.github.io/classroom/2022/test2/src)
 1. [index.html](src/index.html)안에 주석내용 잘 살펴서 구현하기
 1. [class.json](src/class.json)은 수업15개에 맞게 나머지 속성 추가(현재 3개만 존재)
 1. [quiz.json](src/quiz.json)도 본인에 맞게 속성값 입력 필요
