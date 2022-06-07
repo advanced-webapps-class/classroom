@@ -1,6 +1,6 @@
 # start-fe-2022
 
-https://jnuclass.jejunu.ac.kr/
+> 2022년 https://jnuclass.jejunu.ac.kr/
 
 ## 학생
 
