@@ -21,3 +21,4 @@
 1. 선종호 https://github.com/bellsky/start-fe
 1. 김한율 https://github.com/gimhanyul/start-fe
 1. 문지현 https://github.com/dLqovop/start-fe
+1. 정연진 https://github.com/yeonjinn/start-fe-2023
