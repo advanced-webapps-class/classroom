@@ -9,7 +9,7 @@
 1. 정혜연 https://github.com/HY219/start-fe
 1. 서산 https://github.com/dannysir/start-fe.git
 1. 김미경 https://github.com/rmfosem613/start-fe-2023
-1. 김다희 https://github.com/domicmeia/star-fe/tree/master
+1. 김다희 https://github.com/domicmeia/star-fe
 1. 정희영 https://github.com/cmkyduck/start-fe
 1. 김현수 https://github.com/hyunS00/start-fe-2023
 1. 오상현 https://github.com/Cr28self/start-fe.git
