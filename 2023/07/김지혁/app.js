@@ -34,7 +34,7 @@ function gameOver() {
   alert('Game Over!!');
 }
 
-function randomPosition() {
+function randomPosition(event) {
   event.stopPropagation();
   // 0 ~ 380
   const x = Math.floor(Math.random() * (boxRect.width + 1));

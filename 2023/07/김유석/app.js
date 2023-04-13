@@ -41,4 +41,4 @@ bug.addEventListener('click', handleBugClick);
 box.addEventListener('click', handleBoxClick);
 
 moveBug();
-bugInterval = setInterval(moveBug, 1000);
+bugInterval = setInterval(moveBug, 300);
