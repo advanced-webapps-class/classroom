@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Game</title>
+    <style>
+      .box {
+        border: 1px solid black;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+      }
+      .target {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        transition: top 1s, left 1s;
+      }
+      .wrap {
+        margin: 10px auto;
+        width: 500px;
+      }
+      #point,
+      #life {
+        color: blue;
+      }
+      .game-over {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <ul>
+        <li>빨간타겟이 box영역에서만 랜덤으로 출현</li>
+        <li>빨간타겟을 클릭하면 점수 +1</li>
+        <li>빨간타겟을 클릭못하면 생명 -1</li>
+        <li>생명이 0이면 gameover 메세지 출력</li>
+      </ul>
+      <div>점수 <span id="point">0</span></div>
+      <div>생명 <span id="life">10</span></div>
+
+      <div class="box">
+        <div class="target"></div>
+      </div>
+
+      <div class="game-over">Game Over</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
