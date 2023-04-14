@@ -2,6 +2,7 @@ const $loading = document.getElementById('loading');
 
 $loading.style.display = 'block';
 fetch('https://jsonplaceholder.typicode.com/posts/1')
+  // fetch('https://daum.net')
   .then(response => response.json())
   .then(json => {
     console.log(json);
