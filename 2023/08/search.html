@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹 검색</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <!-- bulma.css로 검색폼이 가운데 크게 있고 , 하단으로 검색결과가 리스트로 나오는 마크업 작성 -->
+    <div class="section">
+      <h1 class="title is-2">웹 검색</h1>
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="field has-addons">
+            <div class="control is-expanded">
+              <input
+                class="input"
+                type="text"
+                placeholder="검색어를 입력하세요"
+              />
+            </div>
+            <div class="control">
+              <a class="button is-info"> 검색 </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">검색 결과 1</p>
+              <p class="subtitle">부가 정보</p>
+              <div class="content">검색 결과 내용</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">검색 결과 2</p>
+              <p class="subtitle">부가 정보</p>
+              <div class="content">검색 결과 내용</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <p class="title">검색 결과 3</p>
+              <p class="subtitle">부가 정보</p>
+              <div class="content">검색 결과 내용</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 검색 결과를 추가하려면 위 예시를 복사하여 붙여넣기하고, 내용을 수정해주세요. -->
+      </div>
+      <!-- 더보기가 있을때 노출 -->
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <button class="button is-info is-fullwidth">더보기</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
