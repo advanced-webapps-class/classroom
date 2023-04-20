@@ -15,23 +15,26 @@
     <div class="section">
       <h1 class="title is-2">웹 검색</h1>
       <div class="columns is-centered">
-        <div class="column is-half">
-          <div class="field has-addons">
-            <div class="control is-expanded">
-              <input
-                class="input"
-                type="text"
-                placeholder="검색어를 입력하세요"
-              />
-            </div>
-            <div class="control">
-              <a class="button is-info"> 검색 </a>
+        <form id="searchForm">
+          <div class="column is-half">
+            <div class="field has-addons">
+              <div class="control is-expanded">
+                <input
+                  class="input"
+                  type="text"
+                  id="searchInput"
+                  placeholder="검색어를 입력하세요"
+                />
+              </div>
+              <div class="control">
+                <button type="submit" class="button is-info">검색</button>
+              </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
 
-      <div class="columns is-multiline">
+      <!-- <div class="columns is-multiline">
         <div class="column is-one-third">
           <div class="card">
             <div class="card-content">
@@ -60,16 +63,15 @@
               <div class="content">검색 결과 내용</div>
             </div>
           </div>
-        </div>
-
-        <!-- 검색 결과를 추가하려면 위 예시를 복사하여 붙여넣기하고, 내용을 수정해주세요. -->
-      </div>
+        </div> -->
+      <!-- </div> -->
       <!-- 더보기가 있을때 노출 -->
-      <div class="columns is-centered">
+      <!-- <div class="columns is-centered">
         <div class="column is-half">
           <button class="button is-info is-fullwidth">더보기</button>
         </div>
-      </div>
+      </div> -->
     </div>
+    <script src="search.js"></script>
   </body>
 </html>
