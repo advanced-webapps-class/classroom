@@ -25,4 +25,4 @@
 1. 정지원 https://github.com/Eureka-id/start-fe
 1. 등원호 https://github.com/819DENGYUANHAO/start-fe
 1. 다오반상 https://github.com/daovansang/start-fe
-1. 박병준
+1. 박병준 https://github.com/parkmyungjun/start-fe-2023
