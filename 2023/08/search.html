@@ -16,13 +16,14 @@
       <h1 class="title is-2">웹 검색</h1>
       <div class="columns is-centered">
         <form id="searchForm">
-          <div class="column is-half">
+          <div class="column">
             <div class="field has-addons">
               <div class="control is-expanded">
                 <input
                   class="input"
                   type="text"
                   id="searchInput"
+                  value="제주"
                   placeholder="검색어를 입력하세요"
                 />
               </div>
@@ -33,45 +34,18 @@
           </div>
         </form>
       </div>
+      <div id="items"></div>
 
-      <!-- <div class="columns is-multiline">
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-content">
-              <p class="title">검색 결과 1</p>
-              <p class="subtitle">부가 정보</p>
-              <div class="content">검색 결과 내용</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-content">
-              <p class="title">검색 결과 2</p>
-              <p class="subtitle">부가 정보</p>
-              <div class="content">검색 결과 내용</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-content">
-              <p class="title">검색 결과 3</p>
-              <p class="subtitle">부가 정보</p>
-              <div class="content">검색 결과 내용</div>
-            </div>
-          </div>
-        </div> -->
-      <!-- </div> -->
       <!-- 더보기가 있을때 노출 -->
-      <!-- <div class="columns is-centered">
+      <div class="columns is-centered" id="moreBox" style="display: none">
         <div class="column is-half">
-          <button class="button is-info is-fullwidth">더보기</button>
+          <button class="button is-info is-fullwidth" id="moreButton">
+            더보기
+          </button>
         </div>
-      </div> -->
+      </div>
     </div>
+
     <script src="search.js"></script>
   </body>
 </html>
