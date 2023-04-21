@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100vh;
+}
+.container,
+#loading {
+  height: 100vh;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.sentence {
+  text-align: center;
+}
+.timer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 5px;
+  width: 48%; /* 0~100% */
+  background-color: aqua;
+}
+.loading {
+  display: none;
+}
+.count {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
