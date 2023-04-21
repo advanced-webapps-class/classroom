@@ -50,7 +50,7 @@
 ## 제출
 
 - 5월 2일 0시까지 제출
-- 제출:
+- 제출: https://forms.gle/eNka5AmhtcRM3VXHA
 - 최초 한번만 제출 가능
 
 ## 과제 질문
