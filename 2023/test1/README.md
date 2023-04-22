@@ -25,8 +25,8 @@
 
 ### github
 
-- private 레파지토리 생성 (stydy-english-app)
-- https://github.com/{본인의ID}/stydy-english-app
+- private 레파지토리 생성 (study-english-app)
+- https://github.com/{본인의ID}/study-english-app
 - `niceaji` [collaborator로 레파지토리 초대](https://hengbokhan.tistory.com/140)
 
 ### 요구사항
