@@ -1,19 +1,15 @@
-import { setupCounter } from './counter.js';
-import Button from './Button.js';
-
-function plus() {
-  console.log('plus');
-}
-const $plusButton = Button({ text: 'plus', onClick: plus });
+import JSAlert from 'js-alert';
 
 document.querySelector('#app').innerHTML = `
   <div>
     <h1>ssss!</h1>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button id="modal" type="button">모ㅁㅁㅁsss달입니다ㅁㅁㅁㅁ</button>
     </div>
   </div>
 `;
-document.querySelector('#app').append($plusButton);
 
-setupCounter(document.querySelector('#counter'));
+const $modal = document.querySelector('#modal');
+$modal.addEventListener('click', () => {
+  JSAlert.alert('This is an alert.');
+});

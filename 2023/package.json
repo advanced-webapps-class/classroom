@@ -4,5 +4,8 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "js-alert": "^2.0.0"
   }
 }

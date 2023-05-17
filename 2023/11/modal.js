@@ -1,11 +1,12 @@
+const modalClassName = `__modal_modlue_com`;
 function openModal({ text = '' }) {
   // 이미 모달이 있으면 return
-  if (document.querySelector('.modal')) {
+  if (document.querySelector(`.${modalClassName}`)) {
     return;
   }
 
   const $modal = document.createElement('div');
-  $modal.className = 'modal';
+  $modal.className = modalClassName;
   $modal.innerHTML = `
 		<div class="body">
 			<div class="close">X</div>
@@ -77,4 +78,5 @@ function openModal({ text = '' }) {
   document.body.append($modal);
 }
 
+// eslint-disable-next-line import/prefer-default-export
 export { openModal };
